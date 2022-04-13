@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Calculator.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Grid BackgroundColor="black">
+        <Grid Grid.Row="0" Margin="0,0,0,250">
+            <StackLayout
+                Margin="15,0"
+                HorizontalOptions="EndAndExpand"
+                Orientation="Vertical"
+                VerticalOptions="EndAndExpand">
+                <!--<Label
+                    x:Name="History"
+                    FontSize="40"
+                    HorizontalOptions="EndAndExpand"
+                    Text="0"
+                    TextColor="white" /> *For debugging purposes only-->
+                <Label
+                    x:Name="Output"
+                    FontSize="40"
+                    HorizontalOptions="EndAndExpand"
+                    Text="0"
+                    TextColor="white" />
+            </StackLayout>
+        </Grid>
+
+        <Grid Grid.Row="1" Margin="0,-240,0,0">
+            <StackLayout Margin="5" Orientation="Vertical">
+                <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand">
+                    <Button
+                        x:Name="BtnClear"
+                        Margin="-2"
+                        BackgroundColor="#bdbdbd"
+                        Clicked="ClearClicked"
+                        CornerRadius="0"
+                        FontSize="Title"
+                        HeightRequest="25"
+                        HorizontalOptions="FillAndExpand"
+                        Text="C"
+                        TextColor="Black"
+                        WidthRequest="185" />
+                    <Button
+                        x:Name="BtnDel"
+                        Margin="-2"
+                        BackgroundColor="#bdbdbd"
+                        Clicked="DeleteClicked"
+                        CornerRadius="0"
+                        FontSize="Title"
+                        HeightRequest="25"
+                        HorizontalOptions="FillAndExpand"
+                        Text="Del"
+                        TextColor="Black" />
+                    <Button
+                        x:Name="BtnDivide"
+                        Margin="-2"
+                        BackgroundColor="#ffab40"
+                        Clicked="OperatorClicked"
+                        CornerRadius="0"
+                        FontSize="Title"
+                        HeightRequest="25"
+                        HorizontalOptions="FillAndExpand"
+                        Text="/"
+                        TextColor="White" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand">
+                    <Button
+                        Margin="-2"
+                        BackgroundColor="#bdbdbd"
+                        Clicked="NumericClicked"
+                        CornerRadius="0"
+                        FontSize="Title"
+                        HeightRequest="25"
+                        HorizontalOptions="FillAndExpand"
+                        Text="7"
+                        TextColor="Black"
+                        WidthRequest="50" />
+                    <Button
+                        Margin="-2"
+                        BackgroundColor="#bdbdbd"
+                        Clicked="NumericClicked"
+                        CornerRadius="0"
+                        FontSize="Title"
+                        HeightRequest="25"
+                        HorizontalOptions="FillAndExpand"
+                        Text="8"
+                        TextColor="Black"
+                        WidthRequest="50" />
+                    <Button
+                        Margin="-2"
+                        BackgroundColor="#bdbdbd"
+                        Clicked="NumericClicked"
+                        CornerRadius="0"
+                        FontSize="Title"
+                        HeightRequest="25"
+                        HorizontalOptions="FillAndExpand"
+                        Text="9"
+                        TextColor="Black"
+                        WidthRequest="50" />
+                    <Button
+                        x:Name="BtnMultiply"
+                        Margin="-2"
+                        BackgroundColor="#ffab40"
+                        Clicked="OperatorClicked"
+                        CornerRadius="0"
+                        FontSize="Title"
+                        HeightRequest="25"
+                        HorizontalOptions="FillAndExpand"
+                        Text="x"
+                        TextColor="White"
+                        WidthRequest="50.1" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand">
+                    <Button
+                        Margin="-2"
+                        BackgroundColor="#bdbdbd"
+                        Clicked="NumericClicked"
+                        CornerRadius="0"
+                        FontSize="Title"
+                        HeightRequest="25"
+                        HorizontalOptions="FillAndExpand"
+                        Text="4"
+                        TextColor="Black"
+                        WidthRequest="50" />
+                    <Button
+                        Margin="-2"
+                        BackgroundColor="#bdbdbd"
+                        Clicked="NumericClicked"
+                        CornerRadius="0"
+                        FontSize="Title"
+                        HeightRequest="25"
+                        HorizontalOptions="FillAndExpand"
+                        Text="5"
+                        TextColor="Black"
+                        WidthRequest="50" />
+                    <Button
+                        Margin="-2"
+                        BackgroundColor="#bdbdbd"
+                        Clicked="NumericClicked"
+                        CornerRadius="0"
+                        FontSize="Title"
+                        HeightRequest="25"
+                        HorizontalOptions="FillAndExpand"
+                        Text="6"
+                        TextColor="Black"
+                        WidthRequest="50" />
+                    <Button
+                        x:Name="BtnMinus"
+                        Margin="-2"
+                        BackgroundColor="#ffab40"
+                        Clicked="OperatorClicked"
+                        CornerRadius="0"
+                        FontSize="Title"
+                        HeightRequest="25"
+                        HorizontalOptions="FillAndExpand"
+                        Text="-"
+                        TextColor="White"
+                        WidthRequest="50.1" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand">
+                    <Button
+                        Margin="-2"
+                        BackgroundColor="#bdbdbd"
+                        Clicked="NumericClicked"
+                        CornerRadius="0"
+                        FontSize="Title"
+                        HeightRequest="25"
+                        HorizontalOptions="FillAndExpand"
+                        Text="1"
+                        TextColor="Black"
+                        WidthRequest="50" />
+                    <Button
+                        Margin="-2"
+                        BackgroundColor="#bdbdbd"
+                        Clicked="NumericClicked"
+                        CornerRadius="0"
+                        FontSize="Title"
+                        HeightRequest="25"
+                        HorizontalOptions="FillAndExpand"
+                        Text="2"
+                        TextColor="Black"
+                        WidthRequest="50" />
+                    <Button
+                        Margin="-2"
+                        BackgroundColor="#bdbdbd"
+                        Clicked="NumericClicked"
+                        CornerRadius="0"
+                        FontSize="Title"
+                        HeightRequest="25"
+                        HorizontalOptions="FillAndExpand"
+                        Text="3"
+                        TextColor="Black"
+                        WidthRequest="50" />
+                    <Button
+                        x:Name="BtnAdd"
+                        Margin="-2"
+                        BackgroundColor="#ffab40"
+                        Clicked="OperatorClicked"
+                        CornerRadius="0"
+                        FontSize="Title"
+                        HeightRequest="25"
+                        HorizontalOptions="FillAndExpand"
+                        Text="+"
+                        TextColor="White"
+                        WidthRequest="50.1" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand">
+                    <Button
+                        Margin="-2"
+                        BackgroundColor="#bdbdbd"
+                        Clicked="NumericClicked"
+                        CornerRadius="0"
+                        FontSize="Title"
+                        HeightRequest="25"
+                        HorizontalOptions="FillAndExpand"
+                        Text="0"
+                        TextColor="Black"
+                        WidthRequest="185" />
+                    <Button
+                        Margin="-2"
+                        BackgroundColor="#bdbdbd"
+                        Clicked="DotClicked"
+                        CornerRadius="0"
+                        FontSize="Title"
+                        HeightRequest="25"
+                        HorizontalOptions="FillAndExpand"
+                        Text="."
+                        TextColor="Black" />
+                    <Button
+                        x:Name="BtnEqual"
+                        Margin="-2"
+                        BackgroundColor="#ffab40"
+                        Clicked="EqualsClicked"
+                        CornerRadius="0"
+                        FontSize="Title"
+                        HeightRequest="25"
+                        HorizontalOptions="FillAndExpand"
+                        Text="="
+                        TextColor="White" />
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+
+    </Grid>
+
+
+</ContentPage>

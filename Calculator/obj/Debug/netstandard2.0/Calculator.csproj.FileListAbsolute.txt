@@ -1,0 +1,15 @@
+E:\Projects\Calculator\Calculator\bin\Debug\netstandard2.0\Calculator.deps.json
+E:\Projects\Calculator\Calculator\bin\Debug\netstandard2.0\Calculator.dll
+E:\Projects\Calculator\Calculator\bin\Debug\netstandard2.0\Calculator.pdb
+E:\Projects\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\Calculator\Calculator\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Projects\Calculator\Calculator\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\Projects\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.AssemblyInfoInputs.cache
+E:\Projects\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.AssemblyInfo.cs
+E:\Projects\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.csproj.CoreCompileInputs.cache
+E:\Projects\Calculator\Calculator\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Projects\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.dll
+E:\Projects\Calculator\Calculator\obj\Debug\netstandard2.0\ref\Calculator.dll
+E:\Projects\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.pdb
+E:\Projects\Calculator\Calculator\obj\Debug\netstandard2.0\Calculator.csproj.AssemblyReference.cache
+E:\Projects\Calculator\Calculator\obj\Debug\netstandard2.0\refint\Calculator.dll
