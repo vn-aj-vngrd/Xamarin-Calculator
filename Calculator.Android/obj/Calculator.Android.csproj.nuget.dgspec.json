@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\Calculator\\Calculator.Android\\Calculator.Android.csproj": {}
+    "D:\\Projects\\XAMARIN\\Calculator\\Calculator.Android\\Calculator.Android.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\Calculator\\Calculator.Android\\Calculator.Android.csproj": {
+    "D:\\Projects\\XAMARIN\\Calculator\\Calculator.Android\\Calculator.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\Calculator\\Calculator.Android\\Calculator.Android.csproj",
+        "projectUniqueName": "D:\\Projects\\XAMARIN\\Calculator\\Calculator.Android\\Calculator.Android.csproj",
         "projectName": "Calculator.Android",
-        "projectPath": "E:\\Projects\\Calculator\\Calculator.Android\\Calculator.Android.csproj",
+        "projectPath": "D:\\Projects\\XAMARIN\\Calculator\\Calculator.Android\\Calculator.Android.csproj",
         "packagesPath": "C:\\Users\\Van AJ Vanguardia\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\Calculator\\Calculator.Android\\obj\\",
+        "outputPath": "D:\\Projects\\XAMARIN\\Calculator\\Calculator.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -28,8 +28,8 @@
         "frameworks": {
           "monoandroid12.0": {
             "projectReferences": {
-              "E:\\Projects\\Calculator\\Calculator\\Calculator.csproj": {
-                "projectPath": "E:\\Projects\\Calculator\\Calculator\\Calculator.csproj"
+              "D:\\Projects\\XAMARIN\\Calculator\\Calculator\\Calculator.csproj": {
+                "projectPath": "D:\\Projects\\XAMARIN\\Calculator\\Calculator\\Calculator.csproj"
               }
             }
           }
@@ -50,14 +50,14 @@
         }
       }
     },
-    "E:\\Projects\\Calculator\\Calculator\\Calculator.csproj": {
+    "D:\\Projects\\XAMARIN\\Calculator\\Calculator\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\Calculator\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "D:\\Projects\\XAMARIN\\Calculator\\Calculator\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "E:\\Projects\\Calculator\\Calculator\\Calculator.csproj",
+        "projectPath": "D:\\Projects\\XAMARIN\\Calculator\\Calculator\\Calculator.csproj",
         "packagesPath": "C:\\Users\\Van AJ Vanguardia\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\Calculator\\Calculator\\obj\\",
+        "outputPath": "D:\\Projects\\XAMARIN\\Calculator\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Van AJ Vanguardia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -111,7 +111,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

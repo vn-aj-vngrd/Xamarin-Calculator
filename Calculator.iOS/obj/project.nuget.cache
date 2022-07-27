@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nsNcxILrLpDBu+qMah0qhcVhYcpiKWphXxbcuhJIOvQAuJfvlIU67UmPSPg4ez5aEwkt6lQGq4E/fHlSqhKvTA==",
+  "dgSpecHash": "VrOrs/l40cnSvg1jPHrySXCh3vdOYXOmy1mIpf6dSI4+OfTw+YZG3/gxKbvMM1EYPBJMGFUoBoddiudRtFYP6w==",
   "success": true,
-  "projectFilePath": "E:\\Projects\\Calculator\\Calculator.iOS\\Calculator.iOS.csproj",
+  "projectFilePath": "D:\\Projects\\XAMARIN\\Calculator\\Calculator.iOS\\Calculator.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Van AJ Vanguardia\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Van AJ Vanguardia\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",

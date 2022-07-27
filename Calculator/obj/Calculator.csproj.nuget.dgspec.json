@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\Calculator\\Calculator\\Calculator.csproj": {}
+    "D:\\Projects\\XAMARIN\\Calculator\\Calculator\\Calculator.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\Calculator\\Calculator\\Calculator.csproj": {
+    "D:\\Projects\\XAMARIN\\Calculator\\Calculator\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\Calculator\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "D:\\Projects\\XAMARIN\\Calculator\\Calculator\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "E:\\Projects\\Calculator\\Calculator\\Calculator.csproj",
+        "projectPath": "D:\\Projects\\XAMARIN\\Calculator\\Calculator\\Calculator.csproj",
         "packagesPath": "C:\\Users\\Van AJ Vanguardia\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\Calculator\\Calculator\\obj\\",
+        "outputPath": "D:\\Projects\\XAMARIN\\Calculator\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Van AJ Vanguardia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,7 +65,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

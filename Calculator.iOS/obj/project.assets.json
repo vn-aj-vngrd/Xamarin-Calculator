@@ -987,11 +987,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\Calculator\\Calculator.iOS\\Calculator.iOS.csproj",
+      "projectUniqueName": "D:\\Projects\\XAMARIN\\Calculator\\Calculator.iOS\\Calculator.iOS.csproj",
       "projectName": "Calculator.iOS",
-      "projectPath": "E:\\Projects\\Calculator\\Calculator.iOS\\Calculator.iOS.csproj",
+      "projectPath": "D:\\Projects\\XAMARIN\\Calculator\\Calculator.iOS\\Calculator.iOS.csproj",
       "packagesPath": "C:\\Users\\Van AJ Vanguardia\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\Calculator\\Calculator.iOS\\obj\\",
+      "outputPath": "D:\\Projects\\XAMARIN\\Calculator\\Calculator.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1008,8 +1008,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "E:\\Projects\\Calculator\\Calculator\\Calculator.csproj": {
-              "projectPath": "E:\\Projects\\Calculator\\Calculator\\Calculator.csproj"
+            "D:\\Projects\\XAMARIN\\Calculator\\Calculator\\Calculator.csproj": {
+              "projectPath": "D:\\Projects\\XAMARIN\\Calculator\\Calculator\\Calculator.csproj"
             }
           }
         }

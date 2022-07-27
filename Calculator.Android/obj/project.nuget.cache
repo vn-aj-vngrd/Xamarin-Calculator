@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c1UlsHFJHWBLRYGG0dsUoXLlLfc5KNeSVGXGXzMUtttPLcYycEnUC4sb7b+884LKFRHxorkFXPuH1GUuLq7dig==",
+  "dgSpecHash": "UHGwlCLQKffpgXIsfhoq7kMjwOHYTousREg/47tlnCT2fSDSX6IM/6jGFPaT2Tw79RgxKacu8s8orXss/vKaGw==",
   "success": true,
-  "projectFilePath": "E:\\Projects\\Calculator\\Calculator.Android\\Calculator.Android.csproj",
+  "projectFilePath": "D:\\Projects\\XAMARIN\\Calculator\\Calculator.Android\\Calculator.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Van AJ Vanguardia\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Van AJ Vanguardia\\.nuget\\packages\\xamarin.androidx.activity\\1.2.4.1\\xamarin.androidx.activity.1.2.4.1.nupkg.sha512",

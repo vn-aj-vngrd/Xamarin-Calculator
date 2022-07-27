@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iU5qxkyqKU2gt8O8Rwp6PHT1qTii17izq+F4Uzdro41S3f9XHTUzvpKvh1hJh6fyVHE4aOWwPT8T7Yro5sQJPw==",
+  "dgSpecHash": "uOzYhr8HapV6Gh8VLAIEvvVkG3jy/GcvEEllOFAitNegtJeTtHSGmSeU8HrICJLIq9XIeHz/nJEhMiX16r8kjg==",
   "success": true,
-  "projectFilePath": "E:\\Projects\\Calculator\\Calculator\\Calculator.csproj",
+  "projectFilePath": "D:\\Projects\\XAMARIN\\Calculator\\Calculator\\Calculator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Van AJ Vanguardia\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Van AJ Vanguardia\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
